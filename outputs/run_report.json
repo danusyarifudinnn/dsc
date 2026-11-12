@@ -1,0 +1,17 @@
+{
+  "method": "domain waste classifier + MobileNetV2/ResNet50V2/EfficientNetB0 + TTA + independent argmax",
+  "train_images": 1920,
+  "test_images": 480,
+  "predicted_class_counts": {
+    "cardboard": 92,
+    "plastic": 91,
+    "metal": 68,
+    "textile": 62,
+    "electronic": 55,
+    "foodwaste": 52,
+    "glass": 43,
+    "paper": 17
+  },
+  "note": "Sample submission was used only for column/ID format; no class-count constraint was assumed.",
+  "warning": "Train has no ground truth labels; accuracy cannot be verified."
+}
